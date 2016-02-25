@@ -432,7 +432,7 @@ static void make_sentence(char target[])
 {
 	int i,t,cnt = -1, str_length = strlen(target);
 	bool jump = false;
-	for(i=1;i<str_length;i+=1)
+	for(i=0;i<str_length;i+=1)
 	{
 		if(operator_rank(target[i]) == 2 )
 		{
